@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 text-slate-800
+}
+
+.input-domain {
+ @apply bg-white border border-b-4 border-blue-200 px-4 py-2 text-xl rounded-lg grow;
+}
+
+.input-domain:focus {
+  @apply border border-b-4 border-blue-500;
+  @apply outline-none;
+}
